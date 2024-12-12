@@ -430,3 +430,40 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* ATTENDANCE SECTION */
+#attendance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.attendance-container {
+  max-width: 1200px;
+  width: 90%;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-container .title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.attendance-description {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: rgb(85, 85, 85);
+}
+
+.attendance-embed {
+  overflow: hidden;
+  border-radius: 1rem;
+}
